@@ -1,0 +1,26 @@
+.wrap {
+    display: flex;
+    min-height: calc(100vh - 150px);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 30px;
+    background: radial-gradient(var(--color-blue), var(--color-light-blue));
+    margin-top: 10px;
+    border-radius: 12px;
+
+    &-title {
+        color: var(--color-white);
+        text-transform: uppercase;
+        font-weight: 900 !important;
+        font-size: 28px !important;
+    }
+
+    &-text {
+        color: var(--color-white);
+        opacity: 0.85;
+        font-weight: 500;
+        font-size: 20px;
+    }
+}

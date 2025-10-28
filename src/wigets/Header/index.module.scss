@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    background-color: var(--color-white);
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 10px;
+
+    &__item {
+        color: #000;
+        text-decoration: none;
+
+        &:hover {
+            color: rgb(55, 98, 255);   
+        }
+
+        &--active {
+            color: rgb(55, 98, 255);   
+        }
+    }
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Главная",
+        "path": "/"
+    },
+    {
+        "title": "Участники",
+        "path": "/participants"
+    },
+    {
+        "title": "Соревнования",
+        "path": "/competitions"
+    },
+    {
+        "title": "Результаты",
+        "path": "/results"
+    }
+]
