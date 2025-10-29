@@ -19,10 +19,12 @@ function App() {
 
       <Route path="/" element={<ProtectedRoutes />}>
         <Route index element={<Home />} />
-        <Route path="participants" element={<Participants />} />
         <Route path="competitions" element={<Competitions />} />
+        <Route path="participants" element={<Participants />} />
         <Route path="results" element={<Results />} />
       </Route>
+
+      <Route path="*" element={<p>404 <a href="/">Go back</a></p>} />
     </Routes>
   )
 }
